@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  font-family: "HelveticaNeue", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  background-color: #000;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+
+#content{
+  position: relative;
+  width: 1296px;
+  height: 768px;
+  margin: 100px auto 50px auto;
+  
+  background: #000 url("../img/background.png") repeat scroll;
+}
+
+.details{
+  position: absolute;
+  right: 150px;
+  top: 170px;
+  width: 588px;
+  text-align: center;
+}
+
+.title{
+  width: 596px;
+  height: 72px;
+  padding-bottom: 30px;
+}
+
+.festivals{
+  margin-bottom: 20px;
+}
+
+.festivals img:first-child{
+  margin-right: 50px;
+}
+
+.raindance{
+  width: 118px;
+  height: 138px;
+}
+
+.napa{
+  width: 249px;
+  height: 144px;
+}
+
+.billing{
+  width: 588px;
+  height: 108px;
+}
+
+
+.menu{
+  padding-bottom: 30px;
+}
+
+.menu .movie{
+  float: left;
+}
+
+.menu .contact{
+  float: right;
+}
+
+.menu img{
+  cursor: pointer;
+}
+
+
+.social{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+
+.facebook{
+  padding-right: 15px;
+}
+
+
+.shadow {
+  -moz-box-shadow: 3px 3px 4px #000;
+  -webkit-box-shadow: 3px 3px 4px #000;
+  box-shadow: 3px 3px 4px #000;
+  /* For IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+  /* For IE 5.5 - 7 */
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
