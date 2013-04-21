@@ -6,7 +6,8 @@
       closeEffect : 'none',
       helpers : {
         media : {}
-      }
+      },
+      width: 900
     });
   });
   
