@@ -89,8 +89,10 @@ html, body {
 }
 
 .fb-like{
-  margin-top: 20px;
-  margin-left: 15px;
+  width: 80px;
+  overflow: visible;
+  top: 20px;
+  left: 10px
 }
 
 
