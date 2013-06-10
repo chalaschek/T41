@@ -91,6 +91,7 @@ html, body {
 .share{
   width: 477px;
   height: 20px;
+  display: none;
 }
 
 .fb-share{
@@ -103,6 +104,11 @@ html, body {
   overflow: visible;
   top: 20px;
   left: 10px;
+}
+
+.fb_ltr{
+  background-color: transparent;
+  float: right;
 }
 
 .twitter-share-button{

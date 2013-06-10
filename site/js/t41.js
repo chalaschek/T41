@@ -2,7 +2,9 @@
 
   $(document).ready(function(){
 
- 
+    setTimeout(function(){
+      $(".share").fadeIn();
+    }, 1000);
 
     var updatePos = function () {
         var el = $("#content");
