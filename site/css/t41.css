@@ -88,11 +88,30 @@ html, body {
   padding-right: 15px;
 }
 
+.share{
+  width: 477px;
+  height: 20px;
+}
+
+.fb-share{
+  width: 232px;
+  float: left;
+
+}
 .fb-like{
-  width: 80px;
+  float: right;
   overflow: visible;
   top: 20px;
-  left: 10px
+  left: 10px;
+}
+
+.twitter-share-button{
+  width: 234px !important;
+  position: relative;
+  float: right;
+  top: 20px;
+  left: 10px;
+  padding-left: 10px;
 }
 
 
